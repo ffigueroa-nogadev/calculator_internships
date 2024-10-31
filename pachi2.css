@@ -1,11 +1,15 @@
 .calculo {
-
+    width: 280px;
     margin: 50px;
-   background-color: #9c9898;
+    font-family: fantasy;
+    font-size: 40px;
+    background-color: #9c9898;
+
+
+
 }
 
 .pantalla {
-
     text-align: right;
 
 }
@@ -14,21 +18,24 @@
 
 
 .botones {
-    
+    height: 280px;
+    width: 280px;
     text-align: center;
+    background-color: #7b7878;
+    -webkit-text-fill-color: #f4f0f0;
+    
 
-    background-color: #706e6e;
-        
 }
 .boton1 {
     padding: 4px;
+    
 }
 .boton2 {
     padding: 4px;
 }
 .boton3 {
     padding: 4px; 
-    
+
 }
 .boton4 {
     padding: 4px;
