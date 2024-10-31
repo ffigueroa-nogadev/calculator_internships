@@ -6,40 +6,37 @@
     background-color: #9c9898;
 
 
-
 }
 
 .pantalla {
     text-align: right;
-
+    background-color: antiquewhite;
+    width: 280px;
+    height: 50px;
 }
 
 
 
 
 .botones {
-    height: 280px;
+    height: 220px;
     width: 280px;
     text-align: center;
-    background-color: #7b7878;
     -webkit-text-fill-color: #f4f0f0;
     
 
 }
-.boton1 {
+.boton-calculo {
     padding: 4px;
-    
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
 }
-.boton2 {
-    padding: 4px;
-}
-.boton3 {
-    padding: 4px; 
 
-}
-.boton4 {
-    padding: 4px;
-}
-.boton5 {
-    padding: 4px;
+.boton-evento {
+    flex-basis: 20%;
+
+    background-color: black;
+
+
 }
