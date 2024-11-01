@@ -1,3 +1,4 @@
 #Hola mundo! jajajja quien era.
 
-// Bitacora: 1- Pachi crea html y lo pushea al github
+// Pachi 21.30hs, por ahora agregue lo visual, valores de botones y la suma, faltan funciones pero bueno ya me canse.
+
