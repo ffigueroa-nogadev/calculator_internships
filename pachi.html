@@ -4,65 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pachi2.css">
-    <title>Calculadora</title>
     <link rel="stylesheet" href="styles.css">
-    <h1>Calculadora</h1>
+    <title>Calculadora</title>
 </head>
 <body>
-  
+    <h1>Calculadora</h1>
     <p>Este es el intento de una calculadora :P</p>
     
-<div class="calculo">
+    <div class="calculo">
+        <section class="pantalla">
+            0
+        </section>
+        
+        <section class="botones">
+            <div class="boton-calculo"> 
+                <button class="boton-evento" >«-</button>
+                <button class="boton-evento" >CE</button>
+                <button class="boton-evento" >C</button>
+                <button class="boton-evento" >⌃2</button>
+                <button class="boton-evento" >%</button>
+            </div>
 
-  <section class="pantalla">
-     
-    0
-   
-  </section>
-  
-  <section class="botones" >
-    <div class="boton-calculo"> 
-      <button class="boton-evento" >«-</button>
-      <button class="boton-evento" >CE</button>
-      <button class="boton-evento" >C</button>
-      <button class="boton-evento" >⌃2</button>
-      <button class="boton-evento" >%</button>
+            <div class="boton-calculo"> 
+                <button class="boton-evento"  onclick="valorBoton(7)">7</button>
+                <button class="boton-evento"  onclick="valorBoton(8)">8</button>
+                <button class="boton-evento"  onclick="valorBoton(9)">9</button>
+                <button class="boton-evento" >/</button>
+                <button class="boton-evento" >()</button>
+            </div>
 
-      </div>
+            <div class="boton-calculo"> 
+                <button class="boton-evento" onclick="valorBoton(4)">4</button>
+                <button class="boton-evento" onclick="valorBoton(5)">5</button>
+                <button class="boton-evento" onclick="valorBoton(6)">6</button>
+                <button class="boton-evento" >X</button>
+                <button class="boton-evento" >⎇</button>
+            </div>
 
-    <div class="boton-calculo"> 
-    <button class="boton-evento" >7</button>
-    <button class="boton-evento" >8</button>
-    <button class="boton-evento" >9</button>
-    <button class="boton-evento" >/</button>
-    <button class="boton-evento" >()</button>
+            <div class="boton-calculo"> 
+                <button class="boton-evento" onclick="valorBoton(1)">1</button>
+                <button class="boton-evento" onclick="valorBoton(2)">2</button>
+                <button class="boton-evento" onclick="valorBoton(3)">3</button>
+                <button class="boton-evento" >-</button>
+            </div>
+
+            <div class="boton-calculo"> 
+                <button class="boton-evento" onclick="valorBoton(0)">0</button>
+                <button class="boton-evento" >.</button>
+                <button class="boton-evento" onclick="valorBoton('+')">+</button>
+                <button class="boton-evento" onclick="resultadoBoton()">=</button>
+            </div>
+        </section>
     </div>
-
-    <div class="boton-calculo"> 
-      <button class="boton-evento" >4</button>
-      <button class="boton-evento" >5</button>
-      <button class="boton-evento" >6</button>
-      <button class="boton-evento" >X</button>
-      <button class="boton-evento" >⎇</button>
-    </div>
-
-    <div class="boton-calculo"> 
-      <button class="boton-evento">1</button>
-      <button class="boton-evento">2</button>
-      <button class="boton-evento">3</button>
-      <button class="boton-evento">-</button>
-      </div>
-
-
-      <div class="boton-calculo" > 
-      <button class="boton-evento">0</button>
-      <button class="boton-evento">.</button>
-      <button class="boton-evento">+</button>
-      <button class="boton-evento">=</button>
-      </div>
-
-  </section>
-</div>
 
     <script src="mente.js"></script>
 </body>
