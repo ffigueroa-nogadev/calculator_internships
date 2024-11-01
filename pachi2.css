@@ -36,7 +36,8 @@
 .boton-evento {
     flex-basis: 20%;
 
-    background-color: black;
+    
+    background-color: rgba(94, 43, 43, 0.292);
 
 
 }
